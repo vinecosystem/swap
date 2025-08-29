@@ -1,9 +1,9 @@
-// Kiểm tra MetaMask
+// check MetaMask
 if (typeof window.ethereum === "undefined") {
   alert("Please install MetaMask to use VinSwap!");
 }
 
-// Biến toàn cục
+// .....
 let provider, signer, userAccount;
 let vinTokenAddress = "0x941F63807401efCE8afe3C9d88d368bAA287Fac4";
 let vinSwapAddress = "0xFFE8C8E49f065b083ce3F45014b443Cb6c5F6e38";
@@ -13,7 +13,7 @@ let fromToken = "VIC";
 let toToken = "VIN";
 const balances = { VIC: 0, VIN: 0 };
 
-// Kết nối ví
+// connect wallet
 async function connectWallet() {
   try {
     if (!window.ethereum) {
@@ -28,11 +28,11 @@ async function connectWallet() {
 
     document.getElementById("wallet-address").innerText = userAccount;
 
-    // Ẩn phần giới thiệu, hiện swap
+    // hiden swap
     document.querySelector(".main-content").style.display = "none";
     document.querySelector(".connect-container").style.display = "none";
     document.getElementById("swap-interface").style.display = "block";
-    document.getElementById("add-viction").style.display = "none";  // Ẩn phần "Add Viction Network & VIN Token"
+    document.getElementById("add-viction").style.display = "none";  //  "Add Viction Network & VIN Token"
 
     await getBalances();
   } catch (error) {
@@ -41,7 +41,7 @@ async function connectWallet() {
   }
 }
 
-// Lấy số dư
+// blank
 async function getBalances() {
   try {
     if (!userAccount) return;
@@ -75,20 +75,20 @@ function updateBalanceDisplay() {
   document.getElementById("to-balance").textContent = parseFloat(balances[toToken]).toFixed(6);
 }
 
-// Kết nối ví khi người dùng nhấn nút "Connect Wallet"
+// "Connect Wallet"
 document.getElementById("connect-wallet").addEventListener("click", connectWallet);
 
-// Ngắt kết nối ví
+// ...........
 document.getElementById("disconnect-wallet").addEventListener("click", () => {
   userAccount = null;
   document.getElementById("wallet-address").innerText = "Not Connected";
   document.getElementById("swap-interface").style.display = "none";
   document.querySelector(".main-content").style.display = "block";
   document.querySelector(".connect-container").style.display = "flex";
-  document.getElementById("add-viction").style.display = "block";  // Hiển thị lại phần "Add Viction Network & VIN Token"
+  document.getElementById("add-viction").style.display = "block";  // "Add Viction Network & VIN Token"
 });
 
-// Swap chiều
+// Swap 
 document.getElementById("swap-direction").addEventListener("click", () => {
   [fromToken, toToken] = [toToken, fromToken];
 
@@ -101,7 +101,7 @@ document.getElementById("swap-direction").addEventListener("click", () => {
   updateBalanceDisplay();
 });
 
-// Cập nhật kết quả đầu ra
+// ................
 const fromAmountInput = document.getElementById("from-amount");
 const toAmountInput = document.getElementById("to-amount");
 const maxButton = document.getElementById("max-button");
@@ -131,7 +131,7 @@ maxButton.addEventListener("click", () => {
   }
 });
 
-// Thực hiện Swap
+//....
 document.getElementById("swap-now").addEventListener("click", async () => {
   try {
     if (!userAccount) {
