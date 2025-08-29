@@ -1,4 +1,4 @@
-/* ========== GIAO DIỆN CHUNG ========== */
+/* =================== */
 body {
   margin: 0;
   padding: 0;
@@ -44,7 +44,7 @@ body {
   max-width: 320px;
 }
 
-/* ========== NÚT CHUNG ========== */
+/* ==================== */
 .button {
   font-size: 18px;
   font-weight: bold;
@@ -61,7 +61,7 @@ body {
   background: linear-gradient(90deg, #0056b3, #003f7f);
 }
 
-/* ========== NỘI DUNG CHÍNH ========== */
+/* ==================== */
 .main-content {
   padding: 20px;
   max-width: 800px;
@@ -111,7 +111,7 @@ body {
   font-weight: bold;
 }
 
-/* ========== GIAO DIỆN SWAP ========== */
+/* ==========SWAP ========== */
 #swap-interface {
   display: none;
   background: white;
@@ -274,7 +274,7 @@ body {
 }
 
 #vin-price {
-  color: #FFD700; /* màu vàng tươi dễ nhìn */
+  color: #FFD700; /* .. */
   font-weight: 600;
   font-size: 22px;
   text-shadow: none;
@@ -283,19 +283,19 @@ body {
 #logo-main {
   display: block;
   margin: 0 auto 10px auto;
-  width: 80px;  /* Điều chỉnh kích thước logo */
+  width: 80px;  /* logo */
   height: 80px;
   object-fit: contain;
   image-rendering: crisp-edges;
   background-color: transparent;
 }
 
-/* ========== CẢI TIẾN CHIỀU CAO CHO THANH ĐIỀU HƯỚNG FOOTER ========== */
+/* ==================== */
 .footer {
   background: #007bff;
   color: white;
   text-align: center;
-  padding: 10px 10px;  /* Điều chỉnh padding để giảm chiều cao */
+  padding: 10px 10px;  /* ............ */
   margin-top: auto;
 }
 
@@ -303,13 +303,13 @@ body {
   display: flex;
   justify-content: center;
   gap: 15px;
-  margin: 5px 0; /* Giảm khoảng cách trên và dưới các nút */
+  margin: 5px 0; /* ....... */
 }
 
 .social-btn {
   background: white;
   color: #007bff;
-  padding: 6px 12px;  /* Điều chỉnh padding để làm nhỏ các nút */
+  padding: 6px 12px;  /* ...... */
   border-radius: 5px;
   font-weight: bold;
   text-decoration: none;
