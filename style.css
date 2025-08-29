@@ -303,14 +303,15 @@ body {
   image-rendering: crisp-edges; /* Set sharp edges for logo */
   background-color: transparent; /* Set transparent background */
 }
-/* Adjust margin between sections */
+
+/* Reduce space between sections to just 1 line */
 #connect-container, #add-viction, .main-content {
-  margin-bottom: 20px; /* Set margin below each section */
+  margin-bottom: 10px; /* Set smaller margin below each section */
 }
 
 /* Reduce space between the button and hint text */
 .connect-container .hint-text {
-  margin-top: 5px; /* Reduce margin between the button and the hint */
+  margin-top: 5px; /* Reduce margin between button and hint */
 }
 
 /* Reduce space between each list item in the details sections */
@@ -320,11 +321,12 @@ body {
 
 /* Adjust margin between token balance display and swap interface */
 #from-balance, #to-balance {
-  margin-bottom: 10px; /* Add a small margin below balance display */
+  margin-bottom: 5px; /* Small margin between token balance and other elements */
 }
 
 /* Adjust spacing around the swap interface */
 #swap-interface {
-  margin-top: 20px; /* Add top margin to the swap interface */
+  margin-top: 15px; /* Reduce margin above swap interface */
   padding: 15px; /* Adjust padding inside the swap interface */
 }
+
