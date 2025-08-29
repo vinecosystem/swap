@@ -297,12 +297,13 @@ body {
 #logo-main {
   display: block; /* Ensure logo is a block element */
   margin: 0 auto 10px auto; /* Center-align the logo */
-  width: 80px;  /* Set logo width */
-  height: 80px; /* Set logo height */
+  width: 150px;  /* Increase logo width for larger size */
+  height: 150px; /* Increase logo height for larger size */
   object-fit: contain; /* Ensure logo maintains aspect ratio */
-  image-rendering: crisp-edges; /* Set sharp edges for logo */
+  image-rendering: pixelated; /* Enhance image clarity by rendering in high quality */
   background-color: transparent; /* Set transparent background */
 }
+
 
 /* Reduce space between sections to just 1 line */
 #connect-container, #add-viction, .main-content {
