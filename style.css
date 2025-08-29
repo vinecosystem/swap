@@ -303,3 +303,28 @@ body {
   image-rendering: crisp-edges; /* Set sharp edges for logo */
   background-color: transparent; /* Set transparent background */
 }
+/* Adjust margin between sections */
+#connect-container, #add-viction, .main-content {
+  margin-bottom: 20px; /* Set margin below each section */
+}
+
+/* Reduce space between the button and hint text */
+.connect-container .hint-text {
+  margin-top: 5px; /* Reduce margin between the button and the hint */
+}
+
+/* Reduce space between each list item in the details sections */
+.vin-details li, .vin-earn li {
+  margin: 5px 0; /* Reduce the margin between list items */
+}
+
+/* Adjust margin between token balance display and swap interface */
+#from-balance, #to-balance {
+  margin-bottom: 10px; /* Add a small margin below balance display */
+}
+
+/* Adjust spacing around the swap interface */
+#swap-interface {
+  margin-top: 20px; /* Add top margin to the swap interface */
+  padding: 15px; /* Adjust padding inside the swap interface */
+}
