@@ -6,14 +6,16 @@
   <title>VIN — Transparent, Fair, and Fully On-Chain</title>
 
   <!-- Favicons (VIN) -->
-<link rel="icon" type="image/png" sizes="32x32" href="logo64.png?v=2">
-<link rel="icon" type="image/png" sizes="64x64" href="logo64.png?v=2">
-<link rel="apple-touch-icon" sizes="128x128" href="logo128.png?v=2">
-<link rel="shortcut icon" href="logo64.png?v=2">
+  <!-- Links to favicon images for different devices -->
+  <link rel="icon" type="image/png" sizes="32x32" href="logo64.png?v=2">
+  <link rel="icon" type="image/png" sizes="64x64" href="logo64.png?v=2">
+  <link rel="apple-touch-icon" sizes="128x128" href="logo128.png?v=2">
+  <link rel="shortcut icon" href="logo64.png?v=2">
 
-<link rel="stylesheet" href="style.css" />
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css" />
 
-  <!-- styles -->
+  <!-- Inline styles specific to this page -->
   <style>
     .copyable {
       background:#eef6ff; padding:4px 8px; border-radius:5px; cursor:pointer;
@@ -25,26 +27,26 @@
 </head>
 <body>
 
-  <!-- Logo -->
+  <!-- Logo Section -->
   <div class="logo-center" id="logo-center">
     <img src="vinlogo.png" alt="VIN Logo" class="logo-main"/>
   </div>
 
-  <!-- VIN Price -->
+  <!-- VIN Price Section -->
   <div class="price-center" id="price-center">
-    <span id="vin-price">1 VIN = Loading... USD</span>
+    <span id="vin-price">1 VIN = Loading... USD</span> <!-- Display VIN price dynamically -->
   </div>
 
-  <!-- Swap Button -->
+  <!-- Swap Button Section -->
   <div class="connect-container" id="connect-container">
-    <button id="connect-wallet" class="button">🔁 Swap VIN/VIC</button>
+    <button id="connect-wallet" class="button">🔁 Swap VIN/VIC</button> <!-- Button for swapping -->
     <p class="hint-text muted">
        🔔 Open this page in MetaMask’s in-app browser, then tap <strong>Swap VIN/VIC</strong> to connect. 
-       Make sure you’re on the Viction network (Chain ID 88).
+       Make sure you’re on the Viction network (Chain ID 88). <!-- Instructions for connecting wallet -->
     </p>
   </div>
 
-  <!-- Add Viction Network & VIN Token -->
+  <!-- Add Viction Network & VIN Token Instructions -->
   <section id="add-viction">
     <h2>🧭 Add Viction Network & VIN Token to MetaMask</h2>
     <ul class="vin-details">
@@ -61,28 +63,28 @@
     </ul>
   </section>
 
-  <!-- Main Content -->
+  <!-- Main Content Section -->
   <main class="main-content" id="main-content">
     <section class="vin-info" id="vin-info">
       <h2>🪙 VIN Token Information</h2>
       <ul class="vin-details">
-        <li>🔹 Name: VinLottery</li>
+        <li>🔹 Name: VinLottery</li> <!-- Displaying token details -->
         <li>🔹 Symbol: VIN</li>
         <li>🔹 Blockchain: Viction (VIC)</li>
         <li>🔹 Max Supply: 21,000,000 VIN</li>
         <li>🔹 Initial float: 1,000,000 (swap pool)</li>
         <li>🔹 Locked for: game rewards (Dice, Lotto), bank interest (5% APY)</li>
         <li>🔹 Unlocks gradually as users buy, play & bank</li>
-        <li>🔹 Contract: <a href="https://www.vicscan.xyz/token/0x941F63807401efCE8afe3C9d88d368bAA287Fac4" target="_blank">View on VicScan</a></li>
+        <li>🔹 Contract: <a href="https://www.vicscan.xyz/token/0x941F63807401efCE8afe3C9d88d368bAA287Fac4" target="_blank">View on VicScan</a></li> <!-- Link to view contract -->
       </ul>
     </section>
   </main>
 
-  <!-- Swap Interface -->
+  <!-- Swap Interface Section (hidden initially) -->
   <div id="swap-interface" class="hidden">
     <header class="swap-header">
-      <button id="disconnect-wallet" class="button">Disconnect Wallet</button>
-      <div id="wallet-address" class="wallet-address">Not Connected</div>
+      <button id="disconnect-wallet" class="button">Disconnect Wallet</button> <!-- Disconnect wallet -->
+      <div id="wallet-address" class="wallet-address">Not Connected</div> <!-- Display wallet address -->
     </header>
     <h1>Swap</h1>
     <div class="swap-wrapper">
@@ -96,7 +98,7 @@
         <input type="number" id="from-amount" placeholder="0.0"/>
       </div>
 
-      <button id="swap-direction" class="swap-direction">↔️</button>
+      <button id="swap-direction" class="swap-direction">↔️</button> <!-- Swap direction button -->
 
       <div class="token-input">
         <p class="token-symbol" id="to-token-symbol">VIN</p>
@@ -108,25 +110,25 @@
       </div>
     </div>
 
+    <!-- Display transaction and gas fees -->
     <div class="swap-details">
       <p id="transaction-fee">Transaction Fee: 0.01 VIC</p>
       <p id="gas-fee">Estimated Gas Fee: ~0.000029 VIC</p>
     </div>
 
-    <button id="swap-now" class="button">Swap Now</button>
+    <button id="swap-now" class="button">Swap Now</button> <!-- Button to confirm swap -->
   </div>
 
-  <!-- Footer -->
-<footer class="footer" id="footer">
-  <p>🌐 Connect with Us</p>
-  <div class="social-links">
-    <a href="https://vinplay.vin" target="_blank" class="social-btn">🏠 Home</a>
-    <a href="https://x.com/VinEcosystem" target="_blank" class="social-btn">✅ Twitter/X</a>
-    <a href="https://t.me/VinEcosystem" target="_blank" class="social-btn">✅ Telegram</a>
-  </div>
-  <p>VIN - Transparent, Fair, and Fully On-Chain: Empowering Play, Banking, and Social Experiences.</p>
-</footer>
-
+  <!-- Footer Section -->
+  <footer class="footer" id="footer">
+    <p>🌐 Connect with Us</p>
+    <div class="social-links">
+      <a href="https://vinplay.vin" target="_blank" class="social-btn">🏠 Home</a>
+      <a href="https://x.com/VinEcosystem" target="_blank" class="social-btn">✅ Twitter/X</a>
+      <a href="https://t.me/VinEcosystem" target="_blank" class="social-btn">✅ Telegram</a>
+    </div>
+    <p>VIN - Transparent, Fair, and Fully On-Chain: Empowering Play, Banking, and Social Experiences.</p> <!-- Tagline -->
+  </footer>
 
   <script>
     // JavaScript for hiding unnecessary sections when swap is clicked
@@ -141,14 +143,14 @@
       document.getElementById('swap-interface').classList.remove('hidden');
     });
 
-    // Logic to copy text to clipboard
+    // Function to copy text to clipboard and show confirmation
     function copyText(text) {
       navigator.clipboard.writeText(text).then(() => {
-        alert("✅ Copied: " + text);
+        alert("✅ Copied: " + text); // Show confirmation message
       });
     }
 
-    // Price Script (kept from your previous code)
+    // Price Script (fetch price from Binance and update VIN price)
     const BINANCE_API_URL = "https://api.binance.com/api/v3/ticker/price?symbol=VICUSDT";
     async function updateVinPrice() {
       try {
@@ -159,15 +161,16 @@
         document.getElementById("vin-price").textContent = `1 VIN = ${vinPrice.toFixed(2)} USD`;
       } catch (error) {
         console.error("Failed to fetch VIN price:", error);
-        document.getElementById("vin-price").textContent = "Price unavailable";
+        document.getElementById("vin-price").textContent = "Price unavailable"; // Error message if fetching fails
       }
     }
-    document.addEventListener("DOMContentLoaded", updateVinPrice);
-    setInterval(updateVinPrice, 60000);
+    document.addEventListener("DOMContentLoaded", updateVinPrice); // Update price on page load
+    setInterval(updateVinPrice, 60000); // Update price every minute
   </script>
 
+  <!-- Import necessary scripts for functionality -->
   <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
-  <script type="module" src="app.js"></script>
+  <script type="module" src="app.js"></script> <!-- Link to app.js for wallet interactions -->
 
 </body>
 </html>
