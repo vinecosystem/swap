@@ -23,11 +23,11 @@
 ---
 
 ## 🗄️ IPFS Mirrors
-- 🔁 Swap VIN/VIC → https://ipfs.io/ipfs/bafybeicohvebemqwtxuiupnbzbtq2epswfdupu2clx2buqykr7b37znxpu  
-- ⚖️ Dice → https://ipfs.io/ipfs/bafybeifqr57tfyp6ngxssru6vapuzeew5hnsgqslvtvuibpvefsl5cusaa  
-- 🎟 Lotto → https://ipfs.io/ipfs/bafybeibamj5vxdpyy7ft4bptckw2hjgcw4w3npw4piobs2nl4xafa22wra  
-- 🏦 Bank → https://ipfs.io/ipfs/bafybeiakcjovuj3tsa2h3kgjxvfb35hyibbjwabyz22ritnrvu2lktctfq  
-- 💬 Social → https://ipfs.io/ipfs/bafybeiad6y3csh4q7pr5j57ed2wziyxvz5fe6xzslznt73tjverlagipfy  
+- 🔁 Swap VIN/VIC → https://ipfs.io/ipfs/bafybeigooqte3w5m3rok2r7c5czep2flsfeocwjpzzid3vxszdyib3rjpi 
+- ⚖️ Dice → https://ipfs.io/ipfs/bafybeid44womns73h53ke5q2jnuh3bs7twjg34gd2447e63x3jelkq6xlq  
+- 🎟 Lotto → https://ipfs.io/ipfs/bafybeif23t76dwgauhzwbtkiigf7dsd2s2r462eybrw4it4lhvl2kgthcq  
+- 🏦 Bank → https://ipfs.io/ipfs/bafybeiglixdgfwhioems7hlyxmisyfwt34c7y7bmvliylrhp7wa3um4zxu  
+- 💬 Social → https://ipfs.io/ipfs/bafybeihwodqm7ljplamxz6yzpuz6gjlk25gd3njdzya7ywcpgaefb7r5ve  
 
 ---
 
